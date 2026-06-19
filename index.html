@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario & Luigi - Encanadores</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Michroma&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <video src="./Ativos/video.mp4" autoplay muted loop></video>
+    <div class="mascara-escura"></div>
+
+    <div class="menu-de-links">
+        <img class="logo-site" src="./Ativos/logo-header.png" alt="">
+        <a class="links-header">Home</a>
+        <a class="links-header"
+            href="https://wa.me/+5592993383388?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento!"
+            target="_blank">Fale Conosco</a>
+        <a class="links-header">Nossos Serviços</a>
+    </div>
+
+    <img class="logo-secundario" src="./Ativos/logo.png" alt="Logo-secundario">
+
+    <div class="conteudo-principal">
+        <p> 🔧Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos
+            entupidos ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia! 
+            Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos!<br> Mario e Luigi!
+        </p>
+
+        <img class="mario-luigi" src="./Ativos/mario.png" alt="mario-luigi">
+
+    </div>
+
+    <button class="estilo-botao" id="botao-topo" onclick="mostrarForm()">Entrar em contato</button>
+
+
+    <div class="caixa-link-whatsapp">
+        <a href="https://wa.me/+5592993383388?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento!"
+            target="_blank" class="link-whatsapp">
+            <img src="./Ativos/whatsapp.png" alt="logo-whatsapp">
+        </a>
+    </div>
+
+    <form class="formulario"
+    
+        action="https://formcarry.com/s/ndTSdVW6QlT"
+        method="POST"
+        enctype="multipart/form-data"
+    
+    >
+        <input class="estilo-input" placeholder="Seu Nome" type="text" name="nome">
+        <input class="estilo-input" placeholder="Seu Email" type="email" name="email">
+        <textarea id="estilo-textarea" placeholder="Digite seu texto aqui" name="problema"></textarea>
+        <button class="estilo-botao" id="botao-baixo" type="submit">Enviar Pedido</button>
+    </form>
+
+    <div class="mascara-formulario" onclick="esconderForm()"></div>
+
+
+
+    <script src="./script.js">
+    </script>
+
+
+</body>
+
+</html>
